@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" id="form">
+        <!-- label for name -->
+        <label for="username">Name :</label> <br>
+        <!-- input text for getting user Name -->
+        <input type="text" name="username" id="username" placeholder="enter your name"> 
+        <br> <br>
+
+        <!-- label for email -->
+        <label for="email">Email :</label> <br>
+        <!-- input email for getting user email id -->
+        <input type="email" name="email" id="email" placeholder="text@gmail.com"> 
+        <br> <br>
+
+        <!-- label for roll no. -->
+        <label for="roll_no">Roll No. :</label> <br>
+        <!-- input text for getting user roll no. -->
+        <input type="text" name="roll_no" id="roll_no" placeholder="your roll no.">
+        <br> <br>
+
+        <!-- label for course ratting-->
+        <label for="ratting">How do you rate our courses?</label> <br>
+        <!-- drop down for selecting course ratting -->
+        <select name="ratting" id="ratting">
+            <option value="Excellent">Excellent</option>
+            <option value="Good">Good</option>
+            <option value="Poor">Poor</option>
+        </select>
+        <br> <br>
+
+        <!-- label for favourite topic  -->
+        <label >Your favourite topics in Html</label> <br>
+        <!-- check-box for chooshing favourite topics -->
+        <input type="checkbox" name="fav_topic" value="Structural Element" >Structural Element <br>
+        <input type="checkbox" name="fav_topic" value="Links and List" >Link and List <br>
+        <input type="checkbox" name="fav_topic" value="Html Media" >Html Media <br>
+        <input type="checkbox" name="fav_topic" value="Html Table" >Html Table <br>
+        <input type="checkbox" name="fav_topic" value="Grouping Element" >Grouping Element <br>
+        <input type="checkbox" name="fav_topic" value="Form" >Form <br>
+        <br> <br>
+
+        <!-- label for liking -->
+        <label >Do you Like Html Course?</label> <br>
+        <!-- input radio for tick the correct option -->
+        <input type="radio" name="like" value="Yes">Yes
+        <input type="radio" name="like" value="No">No 
+        <br> <br>
+
+        <!-- label for writing about course -->
+        <label for="about_course">Few words about course :</label> <br>
+        <!-- textarea box for writing about course -->
+        <textarea name="about_course" id="about_course" cols="50" rows="5"></textarea>
+        <br> <br>
+        
+        <!-- submit button -->
+        <input type="submit" value="Submit">
+        
+
+        
+
+
+
+    </form>
+</body>
+</html>
